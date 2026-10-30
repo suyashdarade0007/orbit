@@ -44,7 +44,7 @@ export const planets: Planet[] = [
     moons: "None",
     facts: [
       "A single day on Mercury lasts about 176 Earth days.",
-      "Its year is shorter than any other planet's — 88 Earth days.",
+      "Its year is shorter than any other planet's - 88 Earth days.",
       "Despite being closest to the Sun, it is not the hottest planet.",
     ],
     sections: [
@@ -127,12 +127,12 @@ export const planets: Planet[] = [
     type: "Terrestrial",
     intro:
       "The only world known to host life, with liquid water oceans, a protective atmosphere and an active climate system.",
-    description: "Our home planet — an ocean world with a dynamic atmosphere.",
+    description: "Our home planet - an ocean world with a dynamic atmosphere.",
     distance: "149.6 million km from the Sun",
     diameter: "12,742 km",
     orbitalPeriod: "365.25 days",
     temperature: "Average about 15 °C",
-    moons: "1 — the Moon",
+    moons: "1 - the Moon",
     facts: [
       "About 71% of Earth's surface is covered by water.",
       "Earth's magnetic field shields the surface from much of the solar wind.",
@@ -179,7 +179,7 @@ export const planets: Planet[] = [
     diameter: "6,779 km",
     orbitalPeriod: "687 Earth days",
     temperature: "−140 °C to 20 °C",
-    moons: "2 — Phobos and Deimos",
+    moons: "2 - Phobos and Deimos",
     facts: [
       "Olympus Mons is the largest volcano in the solar system.",
       "Valles Marineris stretches for thousands of kilometres.",
@@ -238,11 +238,11 @@ export const planets: Planet[] = [
       },
       {
         title: "Surface",
-        body: "No solid surface — pressure and temperature increase with depth until hydrogen behaves like a liquid metal.",
+        body: "No solid surface - pressure and temperature increase with depth until hydrogen behaves like a liquid metal.",
       },
       {
         title: "Moons",
-        body: "The four Galilean moons — Io, Europa, Ganymede and Callisto — are worlds in their own right.",
+        body: "The four Galilean moons - Io, Europa, Ganymede and Callisto - are worlds in their own right.",
       },
       {
         title: "Exploration",

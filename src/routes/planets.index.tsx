@@ -7,13 +7,13 @@ export const Route = createFileRoute("/planets/")({
   component: PlanetsPage,
   head: () => ({
     meta: [
-      { title: "Planets — Worlds Beyond Our Own | Orbit" },
+      { title: "Planets - Worlds Beyond Our Own | Orbit" },
       {
         name: "description",
         content:
           "Explore the eight planets of the solar system: size, orbit, climate, moons and the science behind each world.",
       },
-      { property: "og:title", content: "Planets — Worlds Beyond Our Own | Orbit" },
+      { property: "og:title", content: "Planets - Worlds Beyond Our Own | Orbit" },
       {
         property: "og:description",
         content: "The eight planets of the solar system, explained clearly.",

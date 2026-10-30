@@ -6,13 +6,13 @@ export const Route = createFileRoute("/about")({
   component: AboutPage,
   head: () => ({
     meta: [
-      { title: "About Orbit — Understanding the Universe" },
+      { title: "About Orbit - Understanding the Universe" },
       {
         name: "description",
         content:
           "Orbit makes astronomy and planetary science easier to explore, combining an interactive 3D solar system with clear scientific writing.",
       },
-      { property: "og:title", content: "About Orbit — Understanding the Universe" },
+      { property: "og:title", content: "About Orbit - Understanding the Universe" },
       {
         property: "og:description",
         content: "Why Orbit exists and how it approaches planetary science.",
@@ -53,7 +53,7 @@ function AboutPage() {
               <p className="leading-relaxed text-muted-foreground">
                 The project does not invent science. Facts are kept general and
                 well established, and the research section is built to hold real
-                citations — title, authors, publication, year, source and link —
+                citations - title, authors, publication, year, source and link -
                 with anything unverified clearly labelled as a placeholder.
               </p>
             </div>

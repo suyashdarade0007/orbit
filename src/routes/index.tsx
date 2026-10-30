@@ -9,13 +9,13 @@ export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { title: "Orbit — Explore Our Cosmic Neighborhood" },
+      { title: "Orbit - Explore Our Cosmic Neighborhood" },
       {
         name: "description",
         content:
           "An interactive 3D solar system. Explore the planets, their science and the research behind the worlds we observe.",
       },
-      { property: "og:title", content: "Orbit — Explore Our Cosmic Neighborhood" },
+      { property: "og:title", content: "Orbit - Explore Our Cosmic Neighborhood" },
       {
         property: "og:description",
         content:
@@ -42,7 +42,7 @@ function Home() {
     <>
       <Nav />
       <main>
-        {/* Hero — interactive solar system */}
+        {/* Hero - interactive solar system */}
         <section
           id="explore"
           className="relative h-[100svh] w-full overflow-hidden"
@@ -180,7 +180,7 @@ function Home() {
                 },
                 {
                   fact: "Neptune was found with mathematics before a telescope.",
-                  body: "Irregularities in the orbit of Uranus pointed astronomers to where an unseen planet had to be — and there it was.",
+                  body: "Irregularities in the orbit of Uranus pointed astronomers to where an unseen planet had to be - and there it was.",
                 },
               ].map((d) => (
                 <article key={d.fact}>

@@ -30,7 +30,7 @@ export const researchCategories: ResearchCategory[] = [
 
 /**
  * Placeholder entries. Every item is marked `placeholder: true` and carries no
- * fabricated citation — titles describe a topic, not a real paper. Replace an
+ * fabricated citation - titles describe a topic, not a real paper. Replace an
  * entry with a verified reference and set `placeholder: false`.
  */
 export const research: ResearchItem[] = [
@@ -40,9 +40,9 @@ export const research: ResearchItem[] = [
     title: "Water in the history of Mars",
     summary:
       "Placeholder entry for a review of geological and orbital evidence for ancient surface water on Mars.",
-    authors: "—",
-    publication: "—",
-    year: "—",
+    authors: "-",
+    publication: "-",
+    year: "-",
     source: "Awaiting verified citation",
     placeholder: true,
     planets: ["mars"],
@@ -53,9 +53,9 @@ export const research: ResearchItem[] = [
     title: "The greenhouse climate of Venus",
     summary:
       "Placeholder entry for research on the radiative balance and cloud chemistry of the Venusian atmosphere.",
-    authors: "—",
-    publication: "—",
-    year: "—",
+    authors: "-",
+    publication: "-",
+    year: "-",
     source: "Awaiting verified citation",
     placeholder: true,
     planets: ["venus"],
@@ -66,9 +66,9 @@ export const research: ResearchItem[] = [
     title: "Robotic exploration of the outer solar system",
     summary:
       "Placeholder entry for a survey of mission architectures used to reach and study the giant planets.",
-    authors: "—",
-    publication: "—",
-    year: "—",
+    authors: "-",
+    publication: "-",
+    year: "-",
     source: "Awaiting verified citation",
     placeholder: true,
     planets: ["jupiter", "saturn", "uranus", "neptune"],
@@ -79,9 +79,9 @@ export const research: ResearchItem[] = [
     title: "Magnetospheres of the giant planets",
     summary:
       "Placeholder entry for work on planetary magnetic fields and their interaction with the solar wind.",
-    authors: "—",
-    publication: "—",
-    year: "—",
+    authors: "-",
+    publication: "-",
+    year: "-",
     source: "Awaiting verified citation",
     placeholder: true,
     planets: ["jupiter", "saturn"],
@@ -92,9 +92,9 @@ export const research: ResearchItem[] = [
     title: "Comparing our solar system with planetary systems elsewhere",
     summary:
       "Placeholder entry for research comparing solar system architecture with detected exoplanet populations.",
-    authors: "—",
-    publication: "—",
-    year: "—",
+    authors: "-",
+    publication: "-",
+    year: "-",
     source: "Awaiting verified citation",
     placeholder: true,
   },
@@ -104,9 +104,9 @@ export const research: ResearchItem[] = [
     title: "Formation of the protoplanetary disk",
     summary:
       "Placeholder entry for models describing how the solar nebula collapsed into the Sun and planets.",
-    authors: "—",
-    publication: "—",
-    year: "—",
+    authors: "-",
+    publication: "-",
+    year: "-",
     source: "Awaiting verified citation",
     placeholder: true,
   },

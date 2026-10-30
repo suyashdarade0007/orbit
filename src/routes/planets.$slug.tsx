@@ -14,7 +14,7 @@ export const Route = createFileRoute("/planets/$slug")({
   component: PlanetPage,
   head: ({ params, loaderData }) => {
     const p = loaderData?.planet;
-    const title = p ? `${p.name} — ${p.epithet} | Orbit` : "Planet | Orbit";
+    const title = p ? `${p.name} - ${p.epithet} | Orbit` : "Planet | Orbit";
     const description = p?.intro ?? "Planetary science on Orbit.";
     return {
       meta: [
@@ -114,7 +114,7 @@ function PlanetPage() {
             {papers.length === 0 ? (
               <p className="mt-8 max-w-lg leading-relaxed text-muted-foreground">
                 No verified sources have been added for {planet.name} yet. This
-                section is ready for real references — title, authors,
+                section is ready for real references - title, authors,
                 publication, year, source and an external link.
               </p>
             ) : (
@@ -122,7 +122,7 @@ function PlanetPage() {
                 {papers.map((r) => (
                   <li key={r.id} className="py-8">
                     {r.placeholder && (
-                      <p className="label-xs">Placeholder — not a real citation</p>
+                      <p className="label-xs">Placeholder - not a real citation</p>
                     )}
                     <h3 className="mt-2 text-xl md:text-2xl">{r.title}</h3>
                     <p className="mt-3 max-w-2xl leading-relaxed text-muted-foreground">

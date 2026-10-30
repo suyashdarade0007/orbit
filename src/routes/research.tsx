@@ -58,7 +58,7 @@ function ResearchPage() {
                         <div className="md:col-span-8">
                           {r.placeholder && (
                             <p className="label-xs">
-                              Placeholder — not a real citation
+                              Placeholder - not a real citation
                             </p>
                           )}
                           <h3 className="mt-2 text-2xl leading-snug md:text-3xl">
