@@ -16,6 +16,17 @@ dist-ssr
 .nitro
 *.local
 
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
@@ -23,6 +34,7 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
